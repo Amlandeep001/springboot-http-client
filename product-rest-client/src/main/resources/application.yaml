@@ -3,5 +3,10 @@ spring:
     name: product-http-client
 
 
+product:
+  service:
+    url: http://localhost:9191/products
+
 server:
   port: 9292
+
